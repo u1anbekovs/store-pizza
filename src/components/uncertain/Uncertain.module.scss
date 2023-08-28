@@ -1,0 +1,48 @@
+.Uncertain {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  p {
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #777777;
+  }
+
+  button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background: #282828;
+    border-radius: 30px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+  }
+
+  svg {
+    padding: 50px 0;
+  }
+}

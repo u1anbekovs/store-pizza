@@ -1,0 +1,217 @@
+.cart {
+  .cart__top {
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+
+    svg {
+      padding-right: 15px;
+    }
+
+    .content__title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: 'Proxima Nova', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 39px;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+
+    .cart__clear {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: 'Proxima Nova', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: rgba(0, 0, 0, 1);
+      opacity: 0.5;
+
+      &:hover {
+        opacity: 1;
+        transition: 0.5s all;
+      }
+    }
+  }
+
+  .cart__bottom {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .cart__bottomDetails {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      width: 80%;
+
+      span {
+        font-family: 'Proxima Nova', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.01em;
+        color: #000000;
+
+        b {
+          color: #FE5F1E;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .cart__bottomButtons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 80%;
+
+      .prev__btn {;
+        opacity: 0.4;
+        padding: 12px 25px;
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+        background: #FFFFFF;
+        border: 1px solid black;
+        border-radius: 30px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.015em;
+        color: #2C2C2C;
+
+        svg {
+          padding-right: 10px;
+        }
+
+        &:hover {
+          transition: 0.5s all;
+          opacity: 0.8;
+        }
+      }
+
+      .pay__btn {
+        cursor: pointer;
+        border: none;
+        padding: 12px 25px;
+        background: #FE5F1E;
+        border-radius: 30px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+
+        &:active {
+          transition: 0.5s all;
+          background: gray;
+        }
+      }
+    }
+  }
+}
+
+.cart__item {
+  margin: 30px 0;
+  box-shadow: 0.1px 0.2px gray;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .cart__itemImg {
+    img {
+      width: 110px;
+    }
+  }
+
+  .cart__itemInfo {
+    width: 180px;
+
+    h3 {
+      font-family: 'Proxima Nova', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+
+    p {
+      font-family: 'Proxima Nova', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      letter-spacing: 0.01em;
+      color: #8D8D8D;
+    }
+  }
+
+  .cart__itemPlus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+
+    svg {
+      cursor: pointer;
+    }
+
+    b {
+      font-family: 'Proxima Nova', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 27px;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+  }
+
+  .cart__itemPrice {
+    width: 60px;
+
+    b {
+      font-family: 'Proxima Nova', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 27px;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+  }
+
+  .cart__itemRemove {
+    svg {
+      cursor: pointer;
+      opacity: 0.3;
+
+      &:hover {
+        opacity: 0.5;
+        transition: 0.5s all;
+      }
+
+      &:active {
+        opacity: 1;
+        transition: 0.5s all;
+      }
+    }
+  }
+}

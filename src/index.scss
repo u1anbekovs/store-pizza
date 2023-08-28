@@ -1,0 +1,39 @@
+body {
+  background: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.h2 {
+  font-family: 'Proxima Nova', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.categorySort {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.errorInfo {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
